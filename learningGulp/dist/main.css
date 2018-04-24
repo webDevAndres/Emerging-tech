@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0; }
 
-s
 body {
   text-align: center;
   min-width: 100%;
@@ -10,7 +9,7 @@ body {
 
 header {
   padding: 30px;
-  background-color: #f09e08;
+  background-color: #08f01b;
   min-height: 50px; }
 
 nav {
