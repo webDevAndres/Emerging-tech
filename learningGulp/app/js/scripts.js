@@ -1,2 +1,2 @@
 
-document.getElementById('test').innerHTML = "This text changes to a different text"
+document.getElementById('test').innerHTML = "Change me via the javascript files"

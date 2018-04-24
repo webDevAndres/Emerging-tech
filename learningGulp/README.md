@@ -3,7 +3,7 @@
 1. Install Node.js and npm if you have not already on your computer.
    Verify that the installation was successfuly by running node -v and npm -v in your command line.
 
-2. Create a package.jsono file to keep track of all the packages/dependencies in your projects.
+2. Create a package.json file to keep track of all the packages/dependencies in your projects.
    Use the following command in your project folder npm init and follow the steps. It alright to leave the defaults.
 
 3. Install gulp in your project root directory by running npm install --save-dev gulp. All Node.js and npm store packages and       dependencies will be stored in the node_modules folder.

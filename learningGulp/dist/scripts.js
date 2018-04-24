@@ -1,2 +1,1 @@
-
-document.getElementById('test').innerHTML = "This changes the text when you type something"
+document.getElementById("test").innerHTML="Change me via the javascript files";
