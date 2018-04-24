@@ -2,7 +2,6 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 var uglify = require('gulp-uglify');
-var cocnat = require('gulp-concat');
 var imagemin = require('gulp-imagemin');
 var sass = require('gulp-sass');
 
@@ -19,7 +18,7 @@ gulp.task('scripts', function () {
     return gulp.src('app/js/*.js')
         .pipe(browserSync.stream())
         .pipe(uglify())
-        .pipe(gulp.dest('dist/'));
+        .pipe(gulp.dest('dist'));
 });
 
 // minify images
@@ -49,4 +48,4 @@ gulp.task('browser-sync', ['sass'], function () {
 
 });
 
-gulp.task('default', ['sass', 'scripts', 'images', 'watch', 'browser-sync']);
+gulp.task('default', ['sass', 'scripts', 'images','browser-sync','watch',]);
