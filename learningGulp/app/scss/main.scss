@@ -15,53 +15,28 @@ header {
     min-height: 50px;
 }
 
-nav {
-    background-color: #4747c2;
-}
 
-nav li {
-    font-size: 20px;
-    display: inline;
-    color: white;
-    text-align: center;
-    padding: 24px 12px;
-    text-decoration: none;
-}
-
-nav li:hover {
-    background-color: #08f0e4;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
 
 .leftBox, .mainBox,.rightBox {
-    min-height: 100vh;
+    height: 100vh;
     font-size: 22px;
     padding-top: 25px;
     color:rgb(0, 0, 0);
 }
 .leftBox {
     float:left;
-    background-color: rgb(184, 28, 28);
-    height:auto;
+    background-color: rgb(245, 240, 240);
    width: 25%;
 }
 
 .mainBox {
     float:left;
     background-color: rgb(55, 55, 180);
-    height:auto;
    width: 50%;
 }
 
 .rightBox {
     float:left;
     background-color: rgb(218, 250, 76);
-    height:100%;
    width: 25%;
 }
