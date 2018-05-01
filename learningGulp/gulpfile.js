@@ -36,7 +36,7 @@ gulp.task('watch', function () {
     gulp.watch('index.html').on('change', browserSync.reload);
 });
 
-// create a static server for browserSync
+// create a static server
 gulp.task('browser-sync', function () {
     browserSync.init({
         server: {
