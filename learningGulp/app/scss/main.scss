@@ -1,5 +1,5 @@
-$Color1:#f03e08;
-$Color2:rgb(245, 240, 240);
+$Color1:#f03e08f1;
+$Color2:rgb(250, 245, 245);
 $Color3:rgb(55, 55, 180);
 $Color4:rgb(218, 250, 76);
 
@@ -29,6 +29,11 @@ header {
     padding-top: 25px;
     color:rgb(0, 0, 0);
 }
+
+img {
+    width:100%;
+}
+
 .leftBox {
     float:left;
     background-color: $Color2;

@@ -16,9 +16,9 @@ gulp.task('sass', function () {
 // process scripts
 gulp.task('scripts', function () {
     return gulp.src('app/js/*.js')
-        .pipe(browserSync.stream())
         .pipe(uglify())
-        .pipe(gulp.dest('dist'));
+        .pipe(gulp.dest('dist'))
+        .pipe(browserSync.stream());
 });
 
 // minify images
@@ -36,8 +36,8 @@ gulp.task('watch', function () {
     gulp.watch('index.html').on('change', browserSync.reload);
 });
 
-// create a static server for browserSync and watch scss/html/js files
-gulp.task('browser-sync', ['sass'], function () {
+// create a static server for browserSync
+gulp.task('browser-sync', function () {
     browserSync.init({
         server: {
             baseDir: "./"

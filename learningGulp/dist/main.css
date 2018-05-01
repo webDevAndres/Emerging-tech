@@ -9,7 +9,7 @@ body {
 
 header {
   padding: 30px;
-  background-color: #f03e08;
+  background-color: #f03e08f1;
   min-height: 50px; }
 
 .leftBox, .mainBox, .rightBox {
@@ -18,9 +18,12 @@ header {
   padding-top: 25px;
   color: black; }
 
+img {
+  width: 100%; }
+
 .leftBox {
   float: left;
-  background-color: #f5f0f0;
+  background-color: #faf5f5;
   width: 25%; }
 
 .mainBox {
