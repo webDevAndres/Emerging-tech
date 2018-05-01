@@ -1,3 +1,9 @@
+$Color1:#f03e08;
+$Color2:rgb(245, 240, 240);
+$Color3:rgb(55, 55, 180);
+$Color4:rgb(218, 250, 76);
+
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +17,7 @@ body {
 
 header {
     padding: 30px;
-    background-color: #f03e08;
+    background-color: $Color1;
     min-height: 50px;
 }
 
@@ -25,18 +31,18 @@ header {
 }
 .leftBox {
     float:left;
-    background-color: rgb(245, 240, 240);
+    background-color: $Color2;
    width: 25%;
 }
 
 .mainBox {
     float:left;
-    background-color: rgb(55, 55, 180);
+    background-color: $Color3;
    width: 50%;
 }
 
 .rightBox {
     float:left;
-    background-color: rgb(218, 250, 76);
+    background-color: $Color4;
    width: 25%;
 }
